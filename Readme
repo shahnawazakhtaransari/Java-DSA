@@ -1,1 +1,35 @@
 This repo contains a list of java codes I am going to write and progress so that I can hone my coding skills!
+
+Java Data Structures & Algorithms (DSA)
+Welcome to my Java DSA repository! This repository serves as a personal sandbox and reference guide for implementing core data structures and solving algorithmic problems using Java.
+
+Whether you are prepping for interviews, brushing up on fundamentals, or exploring efficient problem-solving techniques, this repo tracks my journey through the essentials of computer science.
+
+🚀 Repository Structure & Topics Covered
+The repository is organized by topic, moving from foundational data structures to advanced algorithmic paradigms.
+
+📦 1. Data Structures
+Arrays & Strings: Matrix manipulation, sliding window problems, two-pointer techniques.
+
+Linked Lists: Singly, doubly, and circular linked lists.
+
+Stacks & Queues: Implementations using arrays/linked lists, priority queues, and deques.
+
+Trees: Binary Trees, Binary Search Trees (BST), AVL Trees, and Trie data structures.
+
+Graphs: Adjacency matrix/list representations, BFS, and DFS traversals.
+
+Hash-based Structures: Custom HashMaps and HashSets handling collision resolution.
+
+🧮 2. Algorithms
+Searching: Linear Search, Binary Search (and its variations).
+
+Sorting: Bubble, Selection, Insertion, Merge, Quick, and Heap Sort.
+
+Recursion & Backtracking: N-Queens, Subsets, Permutations, and Maze problems.
+
+Greedy Algorithms: Huffman Coding, Fractional Knapsack, Activity Selection.
+
+Dynamic Programming (DP): 0/1 Knapsack, Longest Common Subsequence (LCS), Coin Change, Memoization vs. Tabulation.
+
+Graph Algorithms: Dijkstra's, Bellman-Ford, Kruskal's, and Prim's algorithms.
