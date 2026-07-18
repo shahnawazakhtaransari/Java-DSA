@@ -1,0 +1,24 @@
+class replace {
+    static String replaceAll(String s, String s1, String s2) {
+        StringBuilder res = new StringBuilder();
+        int n = s.length();
+        int m = s1.length();
+
+        for (int i = 0; i < n; i++) {
+            // Check if s1 starts from current index.
+            if (i + m <= n && s.substring(i, i + m).equals(s1)) {
+                res.append(s2);
+                i += m - 1;
+            } else {
+                res.append(s.charAt(i));
+            }
+        }
+
+        return res.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(replaceAll("xxforxx xx for xx", "xx", "Geeks"));
+        System.out.println(replaceAll("india is the xx country", "xx", "best"));
+    }
+}
